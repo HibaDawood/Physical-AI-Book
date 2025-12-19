@@ -14,7 +14,6 @@ def create_app() -> FastAPI:
         openapi_url="/api/v1/openapi.json",
     )
 
-    # Setup logging
     setup_logging()
 
     # Add CORS middleware
