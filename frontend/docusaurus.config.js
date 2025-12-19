@@ -9,14 +9,14 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-username.github.io', // Replace with your GitHub Pages URL
+  url: 'https://HibaDawood.github.io', // Replace with your GitHub Pages URL
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub Pages, this is usually the name of your repository
-  baseUrl: '/physical-ai-book', // Replace with your repo name if needed
+  baseUrl: '/Physical-AI-Book/', // Replace with your repo name if needed
 
   // GitHub pages deployment config.
-  organizationName: 'your-username', // Usually your GitHub org/user name.
-  projectName: 'physical-ai-book', // Usually your repo name.
+  organizationName: 'HibaDawood', // Usually your GitHub org/user name.
+  projectName: 'Physical-AI-Book', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -75,7 +75,7 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/HibaDawood/Physical-AI-Book',
             label: 'GitHub',
             position: 'right',
           },
@@ -123,7 +123,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/HibaDawood/Physical-AI-Book',
               },
             ],
           },
