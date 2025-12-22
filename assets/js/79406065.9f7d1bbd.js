@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkbook=globalThis.webpackChunkbook||[]).push([[8910],{7869(o){o.exports=JSON.parse('{"metadata":{"permalink":"/Physical-AI-Book/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

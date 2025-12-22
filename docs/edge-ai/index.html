@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-edge-ai" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">Edge AI | Physical AI Book</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://HibaDawood.github.io/Physical-AI-Book/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://HibaDawood.github.io/Physical-AI-Book/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://HibaDawood.github.io/Physical-AI-Book/docs/edge-ai"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Edge AI | Physical AI Book"><meta data-rh="true" name="description" content="Introduction to Edge AI"><meta data-rh="true" property="og:description" content="Introduction to Edge AI"><link data-rh="true" rel="icon" href="/Physical-AI-Book/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://HibaDawood.github.io/Physical-AI-Book/docs/edge-ai"><link data-rh="true" rel="alternate" href="https://HibaDawood.github.io/Physical-AI-Book/docs/edge-ai" hreflang="en"><link data-rh="true" rel="alternate" href="https://HibaDawood.github.io/Physical-AI-Book/docs/edge-ai" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/Physical-AI-Book/blog/rss.xml" title="Physical AI Book RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/Physical-AI-Book/blog/atom.xml" title="Physical AI Book Atom Feed"><link rel="stylesheet" href="/Physical-AI-Book/assets/css/styles.9c53a5ce.css">
+<script src="/Physical-AI-Book/assets/js/runtime~main.c5297349.js" defer="defer"></script>
+<script src="/Physical-AI-Book/assets/js/main.214ce5e1.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/Physical-AI-Book/img/logo.svg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/Physical-AI-Book/"><div class="navbar__logo"><img src="/Physical-AI-Book/img/logo.svg" alt="Physical AI Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/Physical-AI-Book/img/logo.svg" alt="Physical AI Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Physical AI Book</b></a><a class="navbar__item navbar__link" href="/Physical-AI-Book/docs/intro">Chapters</a><a class="navbar__item navbar__link" href="/Physical-AI-Book/blog">Blog</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/HibaDawood/Physical-AI-Book" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><main class="docMainContainer_TBSr docMainContainerEnhanced_lQrH"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Edge AI</h1></header>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="introduction-to-edge-ai">Introduction to Edge AI<a href="#introduction-to-edge-ai" class="hash-link" aria-label="Direct link to Introduction to Edge AI" title="Direct link to Introduction to Edge AI" translate="no">​</a></h2>
+<p>Edge AI brings artificial intelligence capabilities directly to devices at the edge of the network, close to where data is generated and actions are performed. This approach contrasts with cloud-based AI, where data is transmitted to centralized servers for processing.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="benefits-of-edge-ai">Benefits of Edge AI<a href="#benefits-of-edge-ai" class="hash-link" aria-label="Direct link to Benefits of Edge AI" title="Direct link to Benefits of Edge AI" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="reduced-latency">Reduced Latency<a href="#reduced-latency" class="hash-link" aria-label="Direct link to Reduced Latency" title="Direct link to Reduced Latency" translate="no">​</a></h3>
+<p>Processing data locally eliminates the round-trip time to cloud servers, enabling real-time responses critical for:</p>
+<ul>
+<li class="">Autonomous vehicle decision-making</li>
+<li class="">Industrial control systems</li>
+<li class="">Augmented reality applications</li>
+<li class="">Emergency response systems</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="improved-privacy">Improved Privacy<a href="#improved-privacy" class="hash-link" aria-label="Direct link to Improved Privacy" title="Direct link to Improved Privacy" translate="no">​</a></h3>
+<p>Sensitive data remains on the device rather than being transmitted over networks:</p>
+<ul>
+<li class="">Personal health data processed locally on wearables</li>
+<li class="">Financial transactions secured at the point of service</li>
+<li class="">Corporate data protected from external exposure</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bandwidth-efficiency">Bandwidth Efficiency<a href="#bandwidth-efficiency" class="hash-link" aria-label="Direct link to Bandwidth Efficiency" title="Direct link to Bandwidth Efficiency" translate="no">​</a></h3>
+<p>Edge AI reduces the need to transmit large volumes of raw data:</p>
+<ul>
+<li class="">Video analytics processed locally with only insights transmitted</li>
+<li class="">Selective data transmission based on relevance</li>
+<li class="">Reduced infrastructure costs for data transfer</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="enhanced-reliability">Enhanced Reliability<a href="#enhanced-reliability" class="hash-link" aria-label="Direct link to Enhanced Reliability" title="Direct link to Enhanced Reliability" translate="no">​</a></h3>
+<p>Local processing ensures AI functionality even with poor or absent network connectivity:</p>
+<ul>
+<li class="">Critical systems that must operate independently</li>
+<li class="">Remote installations with limited connectivity</li>
+<li class="">Disaster recovery and emergency systems</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="technologies-enabling-edge-ai">Technologies Enabling Edge AI<a href="#technologies-enabling-edge-ai" class="hash-link" aria-label="Direct link to Technologies Enabling Edge AI" title="Direct link to Technologies Enabling Edge AI" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="model-compression">Model Compression<a href="#model-compression" class="hash-link" aria-label="Direct link to Model Compression" title="Direct link to Model Compression" translate="no">​</a></h3>
+<p>Techniques to reduce AI model size while maintaining performance:</p>
+<ul>
+<li class=""><strong>Quantization</strong>: Reducing precision of model weights and activations</li>
+<li class=""><strong>Pruning</strong>: Removing redundant connections and neurons</li>
+<li class=""><strong>Knowledge Distillation</strong>: Training smaller models to mimic larger ones</li>
+<li class=""><strong>Neural Architecture Search</strong>: Automatically designing efficient architectures</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="specialized-hardware">Specialized Hardware<a href="#specialized-hardware" class="hash-link" aria-label="Direct link to Specialized Hardware" title="Direct link to Specialized Hardware" translate="no">​</a></h3>
+<p>Hardware optimized for AI inference at the edge:</p>
+<ul>
+<li class=""><strong>TPUs</strong>: Tensor Processing Units designed for neural network operations</li>
+<li class=""><strong>NPUs</strong>: Neural Processing Units integrated into mobile processors</li>
+<li class=""><strong>FPGAs</strong>: Field-Programmable Gate Arrays configurable for specific tasks</li>
+<li class=""><strong>ASICs</strong>: Application-Specific Integrated Circuits for particular AI tasks</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="efficient-algorithms">Efficient Algorithms<a href="#efficient-algorithms" class="hash-link" aria-label="Direct link to Efficient Algorithms" title="Direct link to Efficient Algorithms" translate="no">​</a></h3>
+<p>Algorithms designed for resource-constrained environments:</p>
+<ul>
+<li class=""><strong>MobileNets</strong>: Lightweight convolutional networks for mobile devices</li>
+<li class=""><strong>EfficientNet</strong>: Scalable networks balancing accuracy and efficiency</li>
+<li class=""><strong>TinyML</strong>: Machine learning specifically for microcontrollers</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="applications-of-edge-ai">Applications of Edge AI<a href="#applications-of-edge-ai" class="hash-link" aria-label="Direct link to Applications of Edge AI" title="Direct link to Applications of Edge AI" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="consumer-devices">Consumer Devices<a href="#consumer-devices" class="hash-link" aria-label="Direct link to Consumer Devices" title="Direct link to Consumer Devices" translate="no">​</a></h3>
+<ul>
+<li class="">Smartphones with on-device AI for photography and voice assistants</li>
+<li class="">Smart speakers with local wake-word detection</li>
+<li class="">Cameras with real-time object recognition</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="industrial-iot">Industrial IoT<a href="#industrial-iot" class="hash-link" aria-label="Direct link to Industrial IoT" title="Direct link to Industrial IoT" translate="no">​</a></h3>
+<ul>
+<li class="">Predictive maintenance systems monitoring equipment health</li>
+<li class="">Quality control systems inspecting products on assembly lines</li>
+<li class="">Safety systems detecting hazards in real-time</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="automotive">Automotive<a href="#automotive" class="hash-link" aria-label="Direct link to Automotive" title="Direct link to Automotive" translate="no">​</a></h3>
+<ul>
+<li class="">Advanced driver assistance systems (ADAS) for collision avoidance</li>
+<li class="">Traffic sign recognition and lane departure warnings</li>
+<li class="">In-cabin monitoring for driver attention and safety</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="healthcare">Healthcare<a href="#healthcare" class="hash-link" aria-label="Direct link to Healthcare" title="Direct link to Healthcare" translate="no">​</a></h3>
+<ul>
+<li class="">Portable diagnostic devices for remote areas</li>
+<li class="">Wearable health monitors with local AI processing</li>
+<li class="">Surgical robots with real-time decision capabilities</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="challenges-in-edge-ai">Challenges in Edge AI<a href="#challenges-in-edge-ai" class="hash-link" aria-label="Direct link to Challenges in Edge AI" title="Direct link to Challenges in Edge AI" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="resource-constraints">Resource Constraints<a href="#resource-constraints" class="hash-link" aria-label="Direct link to Resource Constraints" title="Direct link to Resource Constraints" translate="no">​</a></h3>
+<p>Limited computational power, memory, and energy require careful optimization of AI models and algorithms.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="model-updates">Model Updates<a href="#model-updates" class="hash-link" aria-label="Direct link to Model Updates" title="Direct link to Model Updates" translate="no">​</a></h3>
+<p>Deploying updates to distributed edge devices poses logistical challenges.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="heterogeneity">Heterogeneity<a href="#heterogeneity" class="hash-link" aria-label="Direct link to Heterogeneity" title="Direct link to Heterogeneity" translate="no">​</a></h3>
+<p>Managing AI deployments across diverse hardware platforms and operating systems.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="development-complexity">Development Complexity<a href="#development-complexity" class="hash-link" aria-label="Direct link to Development Complexity" title="Direct link to Development Complexity" translate="no">​</a></h3>
+<p>Creating efficient edge AI solutions requires expertise in both AI and embedded systems.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="future-of-edge-ai">Future of Edge AI<a href="#future-of-edge-ai" class="hash-link" aria-label="Direct link to Future of Edge AI" title="Direct link to Future of Edge AI" translate="no">​</a></h2>
+<p>The future of Edge AI points toward:</p>
+<ul>
+<li class="">More efficient neural architectures</li>
+<li class="">Advanced hardware accelerators</li>
+<li class="">Federated learning enabling collaborative model improvement</li>
+<li class="">Integration with 5G and other communication technologies</li>
+<li class="">Standardization of edge AI frameworks and tools</li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/HibaDawood/Physical-AI-Book/edit/main/book/docs/edge-ai.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#introduction-to-edge-ai" class="table-of-contents__link toc-highlight">Introduction to Edge AI</a></li><li><a href="#benefits-of-edge-ai" class="table-of-contents__link toc-highlight">Benefits of Edge AI</a><ul><li><a href="#reduced-latency" class="table-of-contents__link toc-highlight">Reduced Latency</a></li><li><a href="#improved-privacy" class="table-of-contents__link toc-highlight">Improved Privacy</a></li><li><a href="#bandwidth-efficiency" class="table-of-contents__link toc-highlight">Bandwidth Efficiency</a></li><li><a href="#enhanced-reliability" class="table-of-contents__link toc-highlight">Enhanced Reliability</a></li></ul></li><li><a href="#technologies-enabling-edge-ai" class="table-of-contents__link toc-highlight">Technologies Enabling Edge AI</a><ul><li><a href="#model-compression" class="table-of-contents__link toc-highlight">Model Compression</a></li><li><a href="#specialized-hardware" class="table-of-contents__link toc-highlight">Specialized Hardware</a></li><li><a href="#efficient-algorithms" class="table-of-contents__link toc-highlight">Efficient Algorithms</a></li></ul></li><li><a href="#applications-of-edge-ai" class="table-of-contents__link toc-highlight">Applications of Edge AI</a><ul><li><a href="#consumer-devices" class="table-of-contents__link toc-highlight">Consumer Devices</a></li><li><a href="#industrial-iot" class="table-of-contents__link toc-highlight">Industrial IoT</a></li><li><a href="#automotive" class="table-of-contents__link toc-highlight">Automotive</a></li><li><a href="#healthcare" class="table-of-contents__link toc-highlight">Healthcare</a></li></ul></li><li><a href="#challenges-in-edge-ai" class="table-of-contents__link toc-highlight">Challenges in Edge AI</a><ul><li><a href="#resource-constraints" class="table-of-contents__link toc-highlight">Resource Constraints</a></li><li><a href="#model-updates" class="table-of-contents__link toc-highlight">Model Updates</a></li><li><a href="#heterogeneity" class="table-of-contents__link toc-highlight">Heterogeneity</a></li><li><a href="#development-complexity" class="table-of-contents__link toc-highlight">Development Complexity</a></li></ul></li><li><a href="#future-of-edge-ai" class="table-of-contents__link toc-highlight">Future of Edge AI</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Content</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/Physical-AI-Book/docs/intro">Introduction</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/HibaDawood/Physical-AI-Book/discussions" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub Discussions<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://scholar.google.com/scholar?q=physical+AI" target="_blank" rel="noopener noreferrer" class="footer__link-item">Research Papers<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Resources</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/Physical-AI-Book/blog">Blog</a></li><li class="footer__item"><a href="https://github.com/HibaDawood/Physical-AI-Book" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Physical AI Book. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
