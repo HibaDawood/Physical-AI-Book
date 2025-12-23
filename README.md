@@ -9,6 +9,7 @@ A comprehensive educational platform for Physical AI with an integrated RAG chat
 - **Premium UI**: VIP design with smooth animations and modern dashboard
 - **Multilingual Support**: Toggle between English and Urdu
 - **Interactive Elements**: Highlight and ask AI about specific text selections
+- **Floating Chat Interface**: Available on all pages for seamless access
 
 ## Tech Stack
 
@@ -16,7 +17,7 @@ A comprehensive educational platform for Physical AI with an integrated RAG chat
 - **Framework**: FastAPI
 - **Database**: PostgreSQL (with Neon)
 - **Vector Database**: Qdrant (for embeddings and RAG)
-- **AI Integration**: OpenAI API for embeddings and completions
+- **AI Integration**: GEMINI API for embeddings and completions
 - **Authentication**: JWT-based auth system
 
 ### Frontend
@@ -64,7 +65,7 @@ frontend/
 ### Prerequisites
 - Python 3.11+
 - Node.js 18+
-- An OpenAI API key
+- An GEMINI API key
 - A Qdrant Cloud account
 - A Neon PostgreSQL account
 

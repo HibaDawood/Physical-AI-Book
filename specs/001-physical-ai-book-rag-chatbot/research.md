@@ -45,7 +45,7 @@
 **Rationale**: This provides advanced conversational capabilities while maintaining context over multiple exchanges.
 
 **Alternatives considered**:
-- LangChain vs native OpenAI API vs other orchestration frameworks
+- LangChain vs native GEMINI API vs other orchestration frameworks
 
 ### 6. Deployment Strategy
 

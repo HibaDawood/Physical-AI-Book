@@ -12,7 +12,7 @@ Develop a comprehensive Physical AI educational book with integrated RAG chatbot
 ## Technical Context
 
 **Language/Version**: Python 3.11, TypeScript/JavaScript, Docusaurus
-**Primary Dependencies**: FastAPI, OpenAI API, Qdrant, Neon PostgreSQL, Docusaurus
+**Primary Dependencies**: FastAPI, GEMINI API, Qdrant, Neon PostgreSQL, Docusaurus
 **Storage**: Qdrant (vector DB), Neon PostgreSQL (user data, metadata, logs)
 **Testing**: pytest for backend, Jest for frontend
 **Target Platform**: Web application deployed to GitHub Pages

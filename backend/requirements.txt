@@ -17,3 +17,4 @@ httpx>=0.25.2
 python-slugify>=8.0.1
 aiofiles>=23.2.1
 asyncer>=0.0.8
+cohere>=4.0

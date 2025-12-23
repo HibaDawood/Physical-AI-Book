@@ -7,7 +7,7 @@
 - Node.js 18+
 - Docker (for local development)
 - Git
-- An OpenAI API key
+- An GEMINI API key
 - A Qdrant Cloud account
 - A Neon PostgreSQL account
 
@@ -180,7 +180,7 @@ python -m pytest
 
 ### Common Issues
 
-1. **Embedding errors**: Make sure your OpenAI API key is valid and has sufficient credits
+1. **Embedding errors**: Make sure your GEMINI API key is valid and has sufficient credits
 2. **Database connection errors**: Check your Neon PostgreSQL connection string
 3. **Qdrant connection errors**: Verify your Qdrant cluster URL and API key
 4. **CORS errors**: Ensure your frontend URL is in the backend's CORS allowlist
