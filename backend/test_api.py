@@ -5,6 +5,7 @@ def test_api():
     """Simple test to verify the API is working"""
     print("Testing the RAG API...")
     
+    
     # Test health endpoint
     try:
         response = requests.get("http://localhost:8000/health")
