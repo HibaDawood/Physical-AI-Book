@@ -54,7 +54,7 @@ def get_embedding(text: str):
 # --------------------
 qdrant = QdrantClient(
     url="https://8ae780ee-6b71-4de3-a801-458b532f87e9.europe-west3-0.gcp.cloud.qdrant.io",
-    api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.EGpBugNaQP61LYq8IkEROgbCpr_Fa7xg5zeQQFiNQNk"
+    api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIiwiZXhwIjoxNzc0NTk4MjIyfQ.C_FJNUjCe5SbJsCfKn5-oMjB7c2dMr3ft1R1cp1-t-o"
 )
 
 def retrieve(query: str):

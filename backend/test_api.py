@@ -8,7 +8,7 @@ def test_api():
     
     # Test health endpoint
     try:
-        response = requests.get("http://localhost:8000/health")
+        response = requests.get("http://127.0.0.1:8000/health")
         if response.status_code == 200:
             print("✓ Health check passed")
         else:
@@ -16,7 +16,7 @@ def test_api():
             return
     except Exception as e:
         print(f"✗ Health check failed with error: {e}")
-        print("Make sure the backend API is running on http://localhost:8000")
+        print("Make sure the backend API is running on http://127.0.0.1:8000")
         return
     
     # Test query endpoint
@@ -40,7 +40,7 @@ def test_api():
             print(f"Response: {response.text}")
     except Exception as e:
         print(f"✗ Query test failed with error: {e}")
-        print("Make sure the backend API is running on http://localhost:8000")
+        print("Make sure the backend API is running on http://127.0.0.1:8000")
 
 if __name__ == "__main__":
     test_api()
